@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "mongodb.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/bocacode/mongodb-first-c8/issues"
   },
-  "homepage": "https://github.com/bocacode/mongodb-first-c8#readme"
+  "homepage": "https://github.com/bocacode/mongodb-first-c8#readme",
+  "dependencies": {
+    "mongodb": "^4.10.0"
+  }
 }
