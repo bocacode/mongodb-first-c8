@@ -26,8 +26,8 @@ console.log(AllMoviesArray)
 
 
 // Now let's get fancy and learn how to query;
-let onlyOneMovieQuery = {title: 'Star Wars'}
-let StarWarsMovieArray = await moviesCollection.find(onlyOneMovieQuery).toArray();
+let onlyOneMovieQuery = {title: 'The Terminator'}
+let oneMovieArray = await moviesCollection.find(onlyOneMovieQuery).toArray();
 console.table(StarWarsMovie) // being fancy. Introduce console.table
 
 
