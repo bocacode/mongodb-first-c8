@@ -1,4 +1,4 @@
-// Let's to everything we can in MongoDB
+// Let's do everything we can in MongoDB
 // Select, Select fancy, insert, update, and update fancy
 // Notice that if it seems to "hang" or not return to the prompt you forgot the last line or simply press CTRL-C (the control key plus the letter C at the same time)
 
