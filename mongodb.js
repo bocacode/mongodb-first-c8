@@ -64,7 +64,7 @@ console.log(results) // notice what we get back!
 
 
 // Fancy Update where we increment the "watched" variable and notice that we don't check the value so we never make a mistake  
-db.people.findAndModify({
+moviesCollection.findAndModify({
     query: {  title: "The Boca Code story", releaseDate: "2022/12/16", rating: { $gt: 5 } }, // check for many fields and some where we check if it's "$gt" or Greater than
     sort: { rating: 1 }, // Sort by rating, biggest to smallest
     update: { $inc: { watched: 1 } } // update a numberical value (creating it if it doesn't exist) and increment it without worrying about the prior value. Just increase it so we never have a race condition and loose a "watched"
